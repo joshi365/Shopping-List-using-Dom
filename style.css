@@ -1,3 +1,104 @@
 .done {
 	text-decoration: line-through;
 }
+
+h1{
+	margin: 1em 0 0.5em 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: black;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 58px;
+	line-height: 54px;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+body{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.Enter {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.Enter:hover {background-color: red}
+ 
+.Enter:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input {
+	border-width: 4px;
+	padding: 10px 100px;
+}
+
+input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 5px solid #ccc;
+  border-radius: 7px;
+  font-size: 23px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 50px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+
+li{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 31px;
+letter-spacing: 0.2px;
+word-spacing: 3px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: normal;
+}
+
+button{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
